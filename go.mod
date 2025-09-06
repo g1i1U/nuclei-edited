@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/nuclei/v3
+module github.com/g1i1U/nuclei-edited/v3
 
 go 1.22.2
 
