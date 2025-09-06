@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 
 	"github.com/dop251/goja"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/libs/structs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/utils"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/js/libs/structs"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/js/utils"
 )
 
 type (

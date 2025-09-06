@@ -8,9 +8,9 @@ import (
 
 	osutils "github.com/projectdiscovery/utils/os"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/signer"
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates/signer"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/testutils"
 )
 
 var isCodeDisabled = func() bool { return osutils.IsWindows() && os.Getenv("CI") == "true" }

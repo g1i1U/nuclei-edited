@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 
 	"github.com/labstack/echo/v4"
-	"github.com/projectdiscovery/nuclei/v3/pkg/scan/events"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/scan/events"
 	fileutil "github.com/projectdiscovery/utils/file"
 )
 

@@ -11,8 +11,8 @@ import (
 	"github.com/google/go-github/github"
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/config"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
 	fileutil "github.com/projectdiscovery/utils/file"
 	folderutil "github.com/projectdiscovery/utils/folder"
 	"golang.org/x/oauth2"
@@ -103,7 +103,7 @@ func (customTemplateRepo *customTemplateGitHubRepo) restructureRepoDir() {
 }
 
 // getOwnerAndRepo returns the owner, repo, err from the given string
-// e.g., it takes input projectdiscovery/nuclei-templates and
+// e.g., it takes input g1i1u/nuclei-edited-templates and
 // returns owner => projectdiscovery, repo => nuclei-templates
 func getOwnerAndRepo(reponame string) (owner string, repo string, err error) {
 	s := strings.Split(reponame, "/")

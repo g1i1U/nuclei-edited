@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
 	"github.com/stretchr/testify/require"
 )
 

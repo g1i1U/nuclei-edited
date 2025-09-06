@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/protocolstate"
 	"github.com/redis/go-redis/v9"
 
 	"github.com/praetorian-inc/fingerprintx/pkg/plugins"

@@ -5,14 +5,14 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats/burp"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats/json"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats/openapi"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats/swagger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats/yaml"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/input/formats"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/input/formats/burp"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/input/formats/json"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/input/formats/openapi"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/input/formats/swagger"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/input/formats/yaml"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/input/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/contextargs"
 )
 
 // HttpMultiFormatOptions contains options for the http input provider

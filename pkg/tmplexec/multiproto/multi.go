@@ -5,11 +5,11 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/scan"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/output"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/generators"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/scan"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates/types"
 	mapsutil "github.com/projectdiscovery/utils/maps"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 )

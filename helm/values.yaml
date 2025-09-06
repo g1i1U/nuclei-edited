@@ -7,7 +7,7 @@ replicaCount: 1
 nuclei:
   enabled: true
   image:
-    repository: docker.io/projectdiscovery/nuclei
+    repository: docker.io/g1i1u/nuclei-edited
     pullPolicy: IfNotPresent
     tag: "v2.7.5"
 

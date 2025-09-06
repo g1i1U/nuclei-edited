@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/config"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/output"
 	"github.com/projectdiscovery/retryablehttp-go"
 	pdcpauth "github.com/projectdiscovery/utils/auth/pdcp"
 	"github.com/projectdiscovery/utils/env"

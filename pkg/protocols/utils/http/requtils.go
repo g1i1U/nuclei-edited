@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types/scanstrategy"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types/scanstrategy"
 	"github.com/projectdiscovery/retryablehttp-go"
 	urlutil "github.com/projectdiscovery/utils/url"
 )

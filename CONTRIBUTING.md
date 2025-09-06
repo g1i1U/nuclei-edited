@@ -1,6 +1,6 @@
-# Contributing to ProjectDiscovery/Nuclei
+# Contributing to g1i1u/nuclei-edited
 
-We appreciate your interest in contributing to the projectdiscovery/nuclei! This document provides some basic guidelines for contributors.
+We appreciate your interest in contributing to the g1i1u/nuclei-edited! This document provides some basic guidelines for contributors.
 
 ## Getting Started
 

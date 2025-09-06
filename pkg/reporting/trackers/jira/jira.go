@@ -12,10 +12,10 @@ import (
 	"github.com/trivago/tgo/tcontainer"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/markdown/util"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/format"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/filters"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/output"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/exporters/markdown/util"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/format"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/trackers/filters"
 	"github.com/projectdiscovery/retryablehttp-go"
 	"github.com/projectdiscovery/utils/ptr"
 )

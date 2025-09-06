@@ -3,7 +3,7 @@ package vardump
 import (
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
 	mapsutil "github.com/projectdiscovery/utils/maps"
 	"github.com/yassinebenaid/godump"
 )

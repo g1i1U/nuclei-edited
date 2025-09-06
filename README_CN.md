@@ -7,12 +7,12 @@
 
 
 <p align="center">
-<img src="https://img.shields.io/github/go-mod/go-version/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/releases"><img src="https://img.shields.io/github/downloads/projectdiscovery/nuclei/total">
-<a href="https://github.com/projectdiscovery/nuclei/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/releases/"><img src="https://img.shields.io/github/release/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/issues"><img src="https://img.shields.io/github/issues-raw/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/discussions"><img src="https://img.shields.io/github/discussions/projectdiscovery/nuclei">
+<img src="https://img.shields.io/github/go-mod/go-version/g1i1u/nuclei-edited">
+<a href="https://github.com/g1i1u/nuclei-edited/releases"><img src="https://img.shields.io/github/downloads/g1i1u/nuclei-edited/total">
+<a href="https://github.com/g1i1u/nuclei-edited/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/g1i1u/nuclei-edited">
+<a href="https://github.com/g1i1u/nuclei-edited/releases/"><img src="https://img.shields.io/github/release/g1i1u/nuclei-edited">
+<a href="https://github.com/g1i1u/nuclei-edited/issues"><img src="https://img.shields.io/github/issues-raw/g1i1u/nuclei-edited">
+<a href="https://github.com/g1i1u/nuclei-edited/discussions"><img src="https://img.shields.io/github/discussions/g1i1u/nuclei-edited">
 <a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 <a href="https://twitter.com/pdnuclei"><img src="https://img.shields.io/twitter/follow/pdnuclei.svg?logo=twitter"></a>
 </p>
@@ -29,18 +29,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README.md">English</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_CN.md">中文</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_KR.md">Korean</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_ID.md">Indonesia</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_ES.md">Spanish</a>
+  <a href="https://github.com/g1i1u/nuclei-edited/blob/main/README.md">English</a> •
+  <a href="https://github.com/g1i1u/nuclei-edited/blob/main/README_CN.md">中文</a> •
+  <a href="https://github.com/g1i1u/nuclei-edited/blob/main/README_KR.md">Korean</a> •
+  <a href="https://github.com/g1i1u/nuclei-edited/blob/main/README_ID.md">Indonesia</a> •
+  <a href="https://github.com/g1i1u/nuclei-edited/blob/main/README_ES.md">Spanish</a>
 </p>
 
 ---
 
 Nuclei使用零误报的定制模板向目标发送请求，同时可以对主机进行批量快速扫描。Nuclei提供TCP、DNS、HTTP、FILE等各类协议的扫描，通过强大且灵活的模板，可以使用Nuclei模拟各种安全检查。
 
-我们的[模板仓库](https://github.com/projectdiscovery/nuclei-templates)包含**超过300名**安全研究员和工程师提供的模板。
+我们的[模板仓库](https://github.com/g1i1u/nuclei-edited-templates)包含**超过300名**安全研究员和工程师提供的模板。
 
 
 
@@ -76,7 +76,7 @@ go install -v github.com/g1i1u/nuclei-edited/v3/cmd/nuclei@latest
   <summary>Docker</summary>
   
   ```sh
-  docker pull projectdiscovery/nuclei:latest
+  docker pull g1i1u/nuclei-edited:latest
   ```
   
 </details>
@@ -89,7 +89,7 @@ go install -v github.com/g1i1u/nuclei-edited/v3/cmd/nuclei@latest
 
 ### Nuclei模板
 
-自从[v2.5.2]((https://github.com/projectdiscovery/nuclei/releases/tag/v2.5.2))起，Nuclei就内置了自动下载和更新模板的功能。[**Nuclei模板**](https://github.com/projectdiscovery/nuclei-templates)仓库随时更新社区中可用的模板列表。
+自从[v2.5.2]((https://github.com/g1i1u/nuclei-edited/releases/tag/v2.5.2))起，Nuclei就内置了自动下载和更新模板的功能。[**Nuclei模板**](https://github.com/g1i1u/nuclei-edited-templates)仓库随时更新社区中可用的模板列表。
 
 您仍然可以随时使用`update-templates`命令更新模板，您可以根据[模板指南](https://nuclei.projectdiscovery.io/templating-guide/)为您的个人工作流和需求编写模板。
 
@@ -322,13 +322,13 @@ UNCOVER引擎:
 
 ### 运行Nuclei
 
-使用[社区提供的模板](https://github.com/projectdiscovery/nuclei-templates)扫描单个目标
+使用[社区提供的模板](https://github.com/g1i1u/nuclei-edited-templates)扫描单个目标
 
 ```sh
 nuclei -u https://example.com
 ```
 
-使用[社区提供的模板](https://github.com/projectdiscovery/nuclei-templates)扫描多个目标
+使用[社区提供的模板](https://github.com/g1i1u/nuclei-edited-templates)扫描多个目标
 
 ```sh
 nuclei -list urls.txt
@@ -400,14 +400,14 @@ Nuclei构建很简单，通过数百名安全研究员的社区模板，Nuclei�
 - **CI/CD：** 工程师已经支持了CI/CD，可以通过Nuclei使用定制模板来监控模拟环境和生产环境
 - **周期性扫描：** 使用Nuclei创建新发现的漏洞模板，通过Nuclei可以周期性扫描消除漏洞
 
-我们有个[讨论组](https://github.com/projectdiscovery/nuclei-templates/discussions/693)，黑客提交自己的模板后可以获得赏金，这可以减少资产的漏洞，并且减少重复。如果你想实行该计划，可以[联系我](mailto:contact@projectdiscovery.io)。我们非常乐意提供帮助，或者在[讨论组](https://github.com/projectdiscovery/nuclei-templates/discussions/693)中发布相关信息。
+我们有个[讨论组](https://github.com/g1i1u/nuclei-edited-templates/discussions/693)，黑客提交自己的模板后可以获得赏金，这可以减少资产的漏洞，并且减少重复。如果你想实行该计划，可以[联系我](mailto:contact@projectdiscovery.io)。我们非常乐意提供帮助，或者在[讨论组](https://github.com/g1i1u/nuclei-edited-templates/discussions/693)中发布相关信息。
 
 <h3 align="center">
   <img src="static/regression-with-nuclei.jpg" alt="regression-cycle-with-nuclei" width="1100px"></a>
 </h3>
 
 <h1 align="left">
-  <a href="https://github.com/projectdiscovery/nuclei-action"><img src="static/learn-more-button.png" width="170px" alt="Learn More"></a>
+  <a href="https://github.com/g1i1u/nuclei-edited-action"><img src="static/learn-more-button.png" width="170px" alt="Learn More"></a>
 </h1>
 
 ### 将nuclei加入您的代码
@@ -430,13 +430,13 @@ Nuclei构建很简单，通过数百名安全研究员的社区模板，Nuclei�
 
 ### 致谢
 
-感谢所有[社区贡献者提供的PR](https://github.com/projectdiscovery/nuclei/graphs/contributors)，并不断更新此项目:heart:
+感谢所有[社区贡献者提供的PR](https://github.com/g1i1u/nuclei-edited/graphs/contributors)，并不断更新此项目:heart:
 
 如果你有想法或某种改进，欢迎你参与该项目，随时发送你的PR。
 
 <p align="center">
-<a href="https://github.com/projectdiscovery/nuclei/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=projectdiscovery/nuclei&max=500">
+<a href="https://github.com/g1i1u/nuclei-edited/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=g1i1u/nuclei-edited&max=500">
 </a>
 </p>
 
@@ -446,7 +446,7 @@ Nuclei构建很简单，通过数百名安全研究员的社区模板，Nuclei�
 
 ### 许可证
 
-Nuclei使用[MIT许可证](https://github.com/projectdiscovery/nuclei/blob/main/LICENSE.md)
+Nuclei使用[MIT许可证](https://github.com/g1i1u/nuclei-edited/blob/main/LICENSE.md)
 
 <h1 align="left">
   <a href="https://discord.gg/projectdiscovery"><img src="static/Join-Discord.png" width="380" alt="Join Discord"></a> <a href="https://nuclei.projectdiscovery.io"><img src="static/check-nuclei-documentation.png" width="380" alt="Check Nuclei Documentation"></a>

@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/config"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/testutils"
 	osutils "github.com/projectdiscovery/utils/os"
 	"github.com/stretchr/testify/require"
 )
@@ -23,7 +23,7 @@ func TestDownloadCustomTemplatesFromGitHub(t *testing.T) {
 	config.DefaultConfig.SetTemplatesDir(templatesDirectory)
 
 	options := testutils.DefaultOptions
-	options.GitHubTemplateRepo = []string{"projectdiscovery/nuclei-templates-test"}
+	options.GitHubTemplateRepo = []string{"g1i1u/nuclei-edited-templates-test"}
 
 	ctm, err := NewCustomTemplatesManager(options)
 	require.Nil(t, err, "could not create custom templates manager")

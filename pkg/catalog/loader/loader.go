@@ -12,17 +12,17 @@ import (
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/loader/filter"
-	"github.com/projectdiscovery/nuclei/v3/pkg/keys"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates"
-	templateTypes "github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils/stats"
-	"github.com/projectdiscovery/nuclei/v3/pkg/workflows"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/config"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/loader/filter"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/keys"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/model/types/severity"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates"
+	templateTypes "github.com/g1i1u/nuclei-edited/v3/pkg/templates/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/utils/stats"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/workflows"
 	"github.com/projectdiscovery/retryablehttp-go"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	sliceutil "github.com/projectdiscovery/utils/slice"
@@ -393,7 +393,7 @@ func (store *Store) areWorkflowOrTemplatesValid(filteredTemplatePaths map[string
 			if existingTemplatePath, found := templateIDPathMap[template.ID]; !found {
 				templateIDPathMap[template.ID] = templatePath
 			} else {
-				// TODO: until https://github.com/projectdiscovery/nuclei-templates/issues/11324 is deployed
+				// TODO: until https://github.com/g1i1u/nuclei-edited-templates/issues/11324 is deployed
 				// disable strict validation to allow GH actions to run
 				// areTemplatesValid = false
 				gologger.Warning().Msgf("Found duplicate template ID during validation '%s' => '%s': %s\n", templatePath, existingTemplatePath, template.ID)

@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/invopop/jsonschema"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/utils"
 )
 
 type StringOrSlice string

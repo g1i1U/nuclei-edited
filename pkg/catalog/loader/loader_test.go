@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/disk"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/config"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/disk"
 	"github.com/stretchr/testify/require"
 )
 
@@ -63,13 +63,13 @@ func TestRemoteTemplates(t *testing.T) {
 			name: "remote-templates-positive",
 			args: args{
 				config: &Config{
-					TemplateURLs:             []string{"https://raw.githubusercontent.com/projectdiscovery/nuclei-templates/main/technologies/tech-detect.yaml"},
+					TemplateURLs:             []string{"https://raw.githubusercontent.com/g1i1u/nuclei-edited-templates/main/technologies/tech-detect.yaml"},
 					RemoteTemplateDomainList: []string{"localhost", "raw.githubusercontent.com"},
 					Catalog:                  catalog,
 				},
 			},
 			want: &Store{
-				finalTemplates: []string{"https://raw.githubusercontent.com/projectdiscovery/nuclei-templates/main/technologies/tech-detect.yaml"},
+				finalTemplates: []string{"https://raw.githubusercontent.com/g1i1u/nuclei-edited-templates/main/technologies/tech-detect.yaml"},
 			},
 			wantErr: false,
 		},
@@ -77,7 +77,7 @@ func TestRemoteTemplates(t *testing.T) {
 			name: "remote-templates-negative",
 			args: args{
 				config: &Config{
-					TemplateURLs:             []string{"https://raw.githubusercontent.com/projectdiscovery/nuclei-templates/main/technologies/tech-detect.yaml"},
+					TemplateURLs:             []string{"https://raw.githubusercontent.com/g1i1u/nuclei-edited-templates/main/technologies/tech-detect.yaml"},
 					RemoteTemplateDomainList: []string{"localhost"},
 					Catalog:                  catalog,
 				},

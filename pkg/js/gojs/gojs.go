@@ -5,7 +5,7 @@ import (
 
 	"github.com/dop251/goja"
 	"github.com/dop251/goja_nodejs/require"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/utils"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/js/utils"
 )
 
 type Objects map[string]interface{}

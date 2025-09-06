@@ -3,7 +3,7 @@ package protocolstate
 import (
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/config"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	fileutil "github.com/projectdiscovery/utils/file"
 )

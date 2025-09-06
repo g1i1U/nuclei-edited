@@ -3,9 +3,9 @@ package automaticscan
 import (
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/config"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 

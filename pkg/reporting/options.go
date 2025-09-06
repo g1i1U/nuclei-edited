@@ -1,19 +1,19 @@
 package reporting
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/es"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/jsonexporter"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/jsonl"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/markdown"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/mongo"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/sarif"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/splunk"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/filters"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/gitea"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/github"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/gitlab"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/jira"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/linear"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/exporters/es"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/exporters/jsonexporter"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/exporters/jsonl"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/exporters/markdown"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/exporters/mongo"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/exporters/sarif"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/exporters/splunk"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/trackers/filters"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/trackers/gitea"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/trackers/github"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/trackers/gitlab"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/trackers/jira"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/reporting/trackers/linear"
 	"github.com/projectdiscovery/retryablehttp-go"
 )
 

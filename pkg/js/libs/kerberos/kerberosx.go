@@ -8,8 +8,8 @@ import (
 	kconfig "github.com/jcmturner/gokrb5/v8/config"
 	"github.com/jcmturner/gokrb5/v8/iana/errorcode"
 	"github.com/jcmturner/gokrb5/v8/messages"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/utils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/js/utils"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/protocolstate"
 	ConversionUtil "github.com/projectdiscovery/utils/conversion"
 )
 

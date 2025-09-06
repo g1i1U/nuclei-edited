@@ -14,24 +14,24 @@ import (
 	"github.com/dop251/goja"
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/compiler"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/gojs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/extractors"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/expressions"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/helpers/eventcreator"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/interactsh"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/utils/vardump"
-	protocolutils "github.com/projectdiscovery/nuclei/v3/pkg/protocols/utils"
-	templateTypes "github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/js/compiler"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/js/gojs"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/model"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/operators"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/operators/extractors"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/operators/matchers"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/output"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/contextargs"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/expressions"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/generators"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/helpers/eventcreator"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/interactsh"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/protocolstate"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/utils/vardump"
+	protocolutils "github.com/g1i1u/nuclei-edited/v3/pkg/protocols/utils"
+	templateTypes "github.com/g1i1u/nuclei-edited/v3/pkg/templates/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
 	"github.com/projectdiscovery/utils/errkit"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	iputil "github.com/projectdiscovery/utils/ip"
@@ -618,7 +618,7 @@ func (request *Request) generateEventData(input *contextargs.Context, values map
 	if input.MetaInput.CustomIP != "" {
 		data["ip"] = input.MetaInput.CustomIP
 	} else {
-		// context: https://github.com/projectdiscovery/nuclei/issues/5021
+		// context: https://github.com/g1i1u/nuclei-edited/issues/5021
 		hostname := input.MetaInput.Input
 		if strings.Contains(hostname, ":") {
 			host, _, err := net.SplitHostPort(hostname)

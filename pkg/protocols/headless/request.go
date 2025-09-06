@@ -12,19 +12,19 @@ import (
 	"golang.org/x/exp/maps"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/helpers/eventcreator"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/helpers/responsehighlighter"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/interactsh"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/utils/vardump"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/headless/engine"
-	protocolutils "github.com/projectdiscovery/nuclei/v3/pkg/protocols/utils"
-	templateTypes "github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/fuzz"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/output"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/contextargs"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/generators"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/helpers/eventcreator"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/helpers/responsehighlighter"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/interactsh"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/utils/vardump"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/headless/engine"
+	protocolutils "github.com/g1i1u/nuclei-edited/v3/pkg/protocols/utils"
+	templateTypes "github.com/g1i1u/nuclei-edited/v3/pkg/templates/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
 	urlutil "github.com/projectdiscovery/utils/url"
 )
 
@@ -185,7 +185,7 @@ func (request *Request) executeRequestWithPayloads(input *contextargs.Context, p
 	header := out.GetOrDefault("header", "").(string)
 
 	// NOTE(dwisiswant0): `status_code` key should be an integer type.
-	// Ref: https://github.com/projectdiscovery/nuclei/pull/5545#discussion_r1721291013
+	// Ref: https://github.com/g1i1u/nuclei-edited/pull/5545#discussion_r1721291013
 	statusCode := out.GetOrDefault("status_code", "").(string)
 
 	outputEvent := request.responseToDSLMap(responseBody, header, statusCode, reqBuilder.String(), input.MetaInput.Input, navigatedURL, page.DumpHistory())

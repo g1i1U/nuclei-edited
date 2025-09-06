@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz/analyzers"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/fuzz/analyzers"
 	"github.com/projectdiscovery/retryablehttp-go"
 )
 

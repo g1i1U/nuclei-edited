@@ -1,14 +1,14 @@
 package protocolinit
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/compiler"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/dns/dnsclientpool"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/http/httpclientpool"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/http/signerpool"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/network/networkclientpool"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/whois/rdapclientpool"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/js/compiler"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/protocolstate"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/dns/dnsclientpool"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/http/httpclientpool"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/http/signerpool"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/network/networkclientpool"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/whois/rdapclientpool"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
 	_ "github.com/projectdiscovery/utils/global"
 )
 

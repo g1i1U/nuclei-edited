@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/output"
 	"go.mongodb.org/mongo-driver/mongo"
 	"net/url"
 	"os"

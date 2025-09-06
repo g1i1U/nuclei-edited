@@ -12,7 +12,7 @@ import (
 	"github.com/go-rod/rod/lib/launcher/flags"
 	"github.com/pkg/errors"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
 	fileutil "github.com/projectdiscovery/utils/file"
 	osutils "github.com/projectdiscovery/utils/os"
 	processutil "github.com/projectdiscovery/utils/process"

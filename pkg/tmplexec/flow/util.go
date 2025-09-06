@@ -1,6 +1,6 @@
 package flow
 
-import "github.com/projectdiscovery/nuclei/v3/pkg/operators"
+import "github.com/g1i1u/nuclei-edited/v3/pkg/operators"
 
 // Checks if template has matchers
 func hasMatchers(all []*operators.Operators) bool {

@@ -10,9 +10,9 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/signer"
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates/signer"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/testutils"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 

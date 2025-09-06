@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	nuclei "github.com/projectdiscovery/nuclei/v3/lib"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
+	nuclei "github.com/g1i1u/nuclei-edited/v3/lib"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates/types"
 )
 
 func main() {

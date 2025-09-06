@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/fuzz"
 	"github.com/projectdiscovery/retryablehttp-go"
 )
 

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/protocolstate"
 )
 
 func memoizedisPoP3(host string, port int) (IsPOP3Response, error) {

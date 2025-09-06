@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-rod/rod"
 	"github.com/go-rod/rod/lib/utils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/interactsh"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/interactsh"
 )
 
 // Instance is an isolated browser instance opened for doing operations with it.

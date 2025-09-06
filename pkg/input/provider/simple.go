@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/input/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/contextargs"
 )
 
 // SimpleInputProvider is a simple input provider for nuclei

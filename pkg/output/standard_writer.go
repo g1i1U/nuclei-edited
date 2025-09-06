@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/logrusorgru/aurora"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/model/types/severity"
 	fileutil "github.com/projectdiscovery/utils/file"
 )
 

@@ -460,7 +460,7 @@ func parseTemplate(data []byte, options protocols.ExecutorOptions) (*Template, e
 		}
 	}
 	options.TemplateVerifier = template.TemplateVerifier
-	if !(template.Verified && verifier.Identifier() == "projectdiscovery/nuclei-templates") {
+	if !(template.Verified && verifier.Identifier() == "g1i1u/nuclei-edited-templates") {
 		template.Options.RawTemplate = data
 	}
 	return template, nil

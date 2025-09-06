@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/protocolstate"
 
 	"github.com/zmap/zgrab2/lib/ssh"
 )

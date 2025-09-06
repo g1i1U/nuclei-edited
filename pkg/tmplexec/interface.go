@@ -5,10 +5,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/scan"
-	"github.com/projectdiscovery/nuclei/v3/pkg/tmplexec/flow"
-	"github.com/projectdiscovery/nuclei/v3/pkg/tmplexec/generic"
-	"github.com/projectdiscovery/nuclei/v3/pkg/tmplexec/multiproto"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/scan"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/tmplexec/flow"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/tmplexec/generic"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/tmplexec/multiproto"
 	"github.com/projectdiscovery/utils/errkit"
 )
 

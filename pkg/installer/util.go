@@ -13,7 +13,7 @@ import (
 
 	"github.com/Masterminds/semver/v3"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/config"
 	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
@@ -47,7 +47,7 @@ func GetNewTemplatesInVersions(versions ...string) []string {
 }
 
 func getNewAdditionsFileFromGitHub(version string) ([]string, error) {
-	resp, err := retryableHttpClient.Get(fmt.Sprintf("https://raw.githubusercontent.com/projectdiscovery/nuclei-templates/%s/.new-additions", version))
+	resp, err := retryableHttpClient.Get(fmt.Sprintf("https://raw.githubusercontent.com/g1i1u/nuclei-edited-templates/%s/.new-additions", version))
 	if err != nil {
 		return nil, err
 	}

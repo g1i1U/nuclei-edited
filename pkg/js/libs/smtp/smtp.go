@@ -10,8 +10,8 @@ import (
 
 	"github.com/dop251/goja"
 	"github.com/praetorian-inc/fingerprintx/pkg/plugins"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/utils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/js/utils"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/protocolstate"
 
 	pluginsmtp "github.com/praetorian-inc/fingerprintx/pkg/plugins/services/smtp"
 )

@@ -10,7 +10,7 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/testutils"
 	permissionutil "github.com/projectdiscovery/utils/permission"
 )
 

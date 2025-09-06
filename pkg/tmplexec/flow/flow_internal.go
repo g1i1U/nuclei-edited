@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 
 	"github.com/dop251/goja"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/output"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols"
 	mapsutil "github.com/projectdiscovery/utils/maps"
 )
 

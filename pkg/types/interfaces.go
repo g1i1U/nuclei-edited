@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/model/types/severity"
 )
 
 // JSONScalarToString converts an interface coming from json to string
