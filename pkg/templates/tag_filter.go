@@ -10,11 +10,11 @@ import (
 
 	"github.com/Knetic/govaluate"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/common/dsl"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/extractors"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/model/types/severity"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/operators/common/dsl"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/operators/extractors"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/operators/matchers"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates/types"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 

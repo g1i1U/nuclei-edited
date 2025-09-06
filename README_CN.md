@@ -61,7 +61,7 @@ Nuclei使用零误报的定制模板向目标发送请求，同时可以对主�
 Nuclei需要 **go1.22** 才能安装成功。执行下列命令安装最新版本的Nuclei
 
 ```sh
-go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+go install -v github.com/g1i1u/nuclei-edited/v3/cmd/nuclei@latest
 ```
 
 <details>
@@ -412,7 +412,7 @@ Nuclei构建很简单，通过数百名安全研究员的社区模板，Nuclei�
 
 ### 将nuclei加入您的代码
 
-有关使用Nuclei作为Library/SDK的完整指南，请访问[godoc](https://pkg.go.dev/github.com/projectdiscovery/nuclei/v3/lib#section-readme)
+有关使用Nuclei作为Library/SDK的完整指南，请访问[godoc](https://pkg.go.dev/github.com/g1i1u/nuclei-edited/v3/lib#section-readme)
 
 ### 资源
 

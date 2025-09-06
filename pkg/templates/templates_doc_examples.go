@@ -3,16 +3,16 @@
 package templates
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/stringslice"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/extractors"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/dns"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/file"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/http"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/network"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/model"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/model/types/severity"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/model/types/stringslice"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/operators"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/operators/extractors"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/operators/matchers"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/dns"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/file"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/http"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/network"
 )
 
 var (

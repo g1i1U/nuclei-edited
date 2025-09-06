@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils/stats"
-	yamlutil "github.com/projectdiscovery/nuclei/v3/pkg/utils/yaml"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/config"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/utils"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/utils/stats"
+	yamlutil "github.com/g1i1u/nuclei-edited/v3/pkg/utils/yaml"
 	fileutil "github.com/projectdiscovery/utils/file"
 	"gopkg.in/yaml.v2"
 )

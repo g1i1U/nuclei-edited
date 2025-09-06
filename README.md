@@ -113,7 +113,7 @@ Browse the full Nuclei [**`documentation here`**](https://docs.projectdiscovery.
 `nuclei` requires **go1.22** to install successfully. Run the following command to get the repo:
 
 ```sh
-go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+go install -v github.com/g1i1u/nuclei-edited/v3/cmd/nuclei@latest
 ```
 
 To learn more about installing nuclei, see `https://docs.projectdiscovery.io/tools/nuclei/install`.

@@ -58,7 +58,7 @@ Tenemos un [repositorio dedicado](https://github.com/projectdiscovery/nuclei-tem
 Nuclei requiere **go1.22** para instalarse correctamente. Ejecute el siguiente comando para instalar la última versión -
 
 ```sh
-go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+go install -v github.com/g1i1u/nuclei-edited/v3/cmd/nuclei@latest
 ```
 
 <details>
@@ -334,7 +334,7 @@ Consulta https://docs.projectdiscovery.io/tools/nuclei/running para obtener deta
 
 ### Uso de Nuclei desde código Go
 
-La guía completa sobre cómo usar Nuclei como biblioteca/SDK está disponible en [godoc](https://pkg.go.dev/github.com/projectdiscovery/nuclei/v3/lib#section-readme).
+La guía completa sobre cómo usar Nuclei como biblioteca/SDK está disponible en [godoc](https://pkg.go.dev/github.com/g1i1u/nuclei-edited/v3/lib#section-readme).
 
 
 ### Recursos

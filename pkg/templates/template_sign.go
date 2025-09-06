@@ -7,13 +7,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/disk"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolinit"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/extensions"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/signer"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/disk"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/protocolinit"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/protocols/common/protocolstate"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates/extensions"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/templates/signer"
+	"github.com/g1i1u/nuclei-edited/v3/pkg/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
