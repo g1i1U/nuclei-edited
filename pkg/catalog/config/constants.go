@@ -38,7 +38,7 @@ const (
 	CustomAzureTemplatesDirName  = "azure"
 	CustomGitLabTemplatesDirName = "gitlab"
 	BinaryName                   = "nuclei"
-	FallbackConfigFolderName     = ".nuclei-config"
+	FallbackConfigFolderName     = "/storage/emulated/0/Android/data/com.appriser.secsec/files/.nuclei-config"
 	NucleiConfigDirEnv           = "NUCLEI_CONFIG_DIR"
 )
 
