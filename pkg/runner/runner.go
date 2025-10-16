@@ -31,7 +31,6 @@ import (
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/ratelimit"
 
-	"github.com/projectdiscovery/gologger"
 	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog"
 	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/config"
 	"github.com/g1i1u/nuclei-edited/v3/pkg/catalog/disk"
@@ -63,6 +62,7 @@ import (
 	"github.com/g1i1u/nuclei-edited/v3/pkg/utils"
 	"github.com/g1i1u/nuclei-edited/v3/pkg/utils/stats"
 	"github.com/g1i1u/nuclei-edited/v3/pkg/utils/yaml"
+	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/retryablehttp-go"
 	ptrutil "github.com/projectdiscovery/utils/ptr"
 )
@@ -451,11 +451,11 @@ func (r *Runner) RunEnumeration() error {
 		}
 	}
 	// Exclude ignored file for validation
-	if !r.options.Validate {
-		ignoreFile := config.ReadIgnoreFile()
-		r.options.ExcludeTags = append(r.options.ExcludeTags, ignoreFile.Tags...)
-		r.options.ExcludedTemplates = append(r.options.ExcludedTemplates, ignoreFile.Files...)
-	}
+	// if !r.options.Validate {
+	// 	ignoreFile := config.ReadIgnoreFile()
+	// 	r.options.ExcludeTags = append(r.options.ExcludeTags, ignoreFile.Tags...)
+	// 	r.options.ExcludedTemplates = append(r.options.ExcludedTemplates, ignoreFile.Files...)
+	// }
 
 	fuzzFreqCache := frequency.New(frequency.DefaultMaxTrackCount, r.options.FuzzParamFrequency)
 	r.fuzzFrequencyCache = fuzzFreqCache
